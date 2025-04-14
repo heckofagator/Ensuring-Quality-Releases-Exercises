@@ -1,5 +1,5 @@
 
-This repository contains the exercise starter code and solution for the lesson exercises in **cd1807 Ensuring Quality Releases** (Quality Assurance) course taught by Nathan Anderson. 
+This repository contains the exercise starter code and solution for the lesson exercises in **cd1807 Ensuring Quality Releases** (Quality Assurance) course taught by Nathan Anderson. .
 
 Here is the list of lessons containing the exercises/solutions:
 
