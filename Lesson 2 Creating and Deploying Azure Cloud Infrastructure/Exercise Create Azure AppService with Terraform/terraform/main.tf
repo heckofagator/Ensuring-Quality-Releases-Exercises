@@ -14,17 +14,17 @@ terraform {
   }
 }
 module "resource_group" {
-  source               = "../modules/resource_group"
+  source               = ".//modules/resource_group"
   resource_group       = "${var.resource_group}"
   location             = "${var.location}"
 }
 
 module "app_service" {
-  source               = "../modules/appservice"
+  source               = ".//modules/appservice"
   location             = "${var.location}"
   application_type     = "${var.application_type}"
   resource_type        = "AppService"
   resource_group       = "${module.resource_type.resource_group_name}"
-  tags                 + "${local.tags}"
+  tags                 = "${local.tags}"
 
 }
