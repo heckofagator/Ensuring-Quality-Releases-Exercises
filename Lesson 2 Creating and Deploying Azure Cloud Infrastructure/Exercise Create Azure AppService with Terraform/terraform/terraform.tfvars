@@ -5,9 +5,9 @@ client_secret = ""
 tenant_id = ""
 
 # Resource Group/Location
-location = ""
-resource_group = ""
-application_type = "" # This name has to be globally unique.
+location = "East US 2"
+resource_group = "Lesson 1"
+application_type = "AaronAppOne" # This name has to be globally unique.
 
 # Tags
 tier = "Test"
