@@ -5,14 +5,14 @@ provider "azurerm" {
   client_secret   = "${var.client_secret}"
   features {}
 }
-terraform {
-  backend "azurerm" {
-    storage_account_name = ""
-    container_name       = ""
-    key                  = ""
-    access_key           = ""
-  }
-}
+#terraform {
+#  backend "azurerm" {
+#    storage_account_name = ""
+#    container_name       = ""
+#    key                  = ""
+#    access_key           = ""
+#  }
+#}
 locals {
   tags = {
     tier        = "${var.tier}"
